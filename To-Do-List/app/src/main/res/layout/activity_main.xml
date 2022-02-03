@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="5dp"
             android:layout_marginEnd="10dp"
             android:text="@string/add">
 
@@ -44,24 +44,11 @@
         android:layout_height="match_parent"
         android:background="@color/gray"
         android:orientation="vertical"
-        android:layout_marginTop="65dp"
-        android:layout_marginEnd="50dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/layoutDelete"
-        android:layout_width="50dp"
-        android:layout_height="match_parent"
-        android:background="@color/gray"
-        android:orientation="vertical"
-        android:layout_marginTop="65dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/layoutList"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </LinearLayout>
+        app:layout_constraintTop_toTopOf="parent"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
